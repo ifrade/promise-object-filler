@@ -1,0 +1,47 @@
+{
+    "extends": "airbnb",
+    "env": {
+        "node": true,
+        "mocha": true
+    },
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "parserOptions": {
+        "sourceType": "script"
+    },
+    "rules": {
+        "comma-dangle": ["error", "never"],
+        "strict": ["warn", "global"],
+        "arrow-parens": [
+            "error",
+            "as-needed",
+            {
+                "requireForBlockBody": false
+            }
+        ],
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1,
+                "VariableDeclarator": 1,
+                "outerIIFEBody": 1,
+                "FunctionDeclaration": {
+                    "parameters": "first",
+                    "body": 1
+                },
+                "FunctionExpression": {
+                    "parameters": "first",
+                    "body": 1
+                },
+                "ArrayExpression": "first",
+                "CallExpression": {
+                    "arguments": "first"
+                }
+            }
+        ]
+    }
+}

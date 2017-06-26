@@ -1,0 +1,16 @@
+{
+  "name": "promise-object-filler",
+  "version": "0.0.1",
+  "description": "Fill object properties with the result of promises",
+  "main": "index.js",
+  "repository": "https://github.com/ifrade/promise-object-filler.git",
+  "author": "Ivan Frade <ivan.frade@gmail.com>",
+  "scripts": {
+     "test": "mocha test/*-test.js"
+  },
+  "license": "LGPL-2.1",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
